@@ -1,0 +1,6 @@
+training_pipeline_config:
+  pipeline_name: housing
+  artifact_dir: artifact
+
+data_ingestion_config:
+dataset_download_url: kaggle datasets download -d kazanova/sentiment140
